@@ -1,13 +1,12 @@
 # Site settings
-title: "Pyro's personal Blog"
+title: "Pyro's Blog"
 logo: logo.png
 email: pyrophyllit@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hey I'm Pyro - I am a meditation and full time student trying to understand what there is to understand.
+  Hey I'm Pyro - I am a full-time student who is trying to understand what there is to understand.
   <br/>This is my personal blog where I share stories and insights.
 url: "http://pyrophyllit.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
-twitter_username: jekyllrb
 
 # Build settings
 markdown: kramdown
