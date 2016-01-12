@@ -16,7 +16,7 @@ Heavily copied content begins below...
 
 # Heading 1
 
-## Heading 2
+## Überschrift 2
 
 ### Heading 3
 
