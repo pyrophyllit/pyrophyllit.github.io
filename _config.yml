@@ -3,8 +3,7 @@ title: "Pyro's Blog"
 logo: logo.png
 email: pyrophyllit@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hey I'm Pyro - I am a full-time student who is trying to understand what there is to understand.
-  <br/>This is my personal blog where I share stories and insights.
+  Hey I'm Pyro - This website is a dedicated project to clarify and seperate buddhist dogmata from result producing techniques that are worthwile to practice. Read more about me and this blog.
 url: "http://pyrophyllit.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
