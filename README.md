@@ -1,4 +1,4 @@
-# Pyrophyllit - Pyro's BLog
+# Pyrophyllit - Pyro's Blog
 
 This website is a dedicated project to clarify and seperate buddhist dogmata from result producing techniques that are worthwile to practice.
 
