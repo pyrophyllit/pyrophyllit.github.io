@@ -1208,6 +1208,9 @@ body>.no-posts [data-icon]:before {
     font-size: 130px;
     color: #e8e8e9
 }
+#disqus_thread {
+    margin-bottom: 50px
+}
 #share_modal {
     display: none;
     position: fixed;
