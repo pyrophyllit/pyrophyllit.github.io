@@ -12,10 +12,3 @@ paginate: 5
 
 # Build settings
 markdown: kramdown
-
-gems:
-- jekyll-archives
-
-jekyll-archives:
-  enabled: []
-  layout: 'archive'
