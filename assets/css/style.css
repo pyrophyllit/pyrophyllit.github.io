@@ -164,6 +164,10 @@ article:last-child {
     margin-bottom: 0;
 }
 
+.post h2 {
+    font-size: 1.5em;
+}
+
 .post:after {
     background-image: url("../images/separator.png");
     background-size: 100%;
@@ -189,6 +193,7 @@ article:last-child {
 .image img {
     display: block;
     width: 100%;
+    border-radius: 0.25em;
 }
 
 .image.featured {
@@ -299,10 +304,6 @@ ul.style .first {
 .button:hover {
     background: #70AA7E;
     color: #FFF !important;
-}
-
-.button-style1 {
-    float: right;
 }
 
 
