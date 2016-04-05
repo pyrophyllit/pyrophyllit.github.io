@@ -51,6 +51,7 @@ h6 {
 
 h2 {
     letter-spacing: -0.025em;
+    line-height: 0.9em;
 }
 
 h1 a,
@@ -281,9 +282,9 @@ ul.style .first {
     position: relative;
     display: inline-block;
     background: #80BA8E;
-    padding: 0.8em 2em;
+    padding: 0.4em 0.8em;
     text-decoration: none !important;
-    font-size: 1.2em;
+    font-size: 0.8em;
     font-weight: 300;
     color: #FFF !important;
     -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
@@ -298,6 +299,10 @@ ul.style .first {
 .button:hover {
     background: #70AA7E;
     color: #FFF !important;
+}
+
+.button-style1 {
+    float: right;
 }
 
 
