@@ -169,7 +169,7 @@ article:last-child {
     font-weight: 500;
 }
 
-.post:after {
+.post h2:after {
     background-image: url("../images/separator.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -180,7 +180,7 @@ article:last-child {
     max-width: 596px;
     height: 42px;
     display: block;
-    margin: 20px auto 50px;
+    margin: 20px auto 20px;
     background-size: 596px !important;
 }
 
