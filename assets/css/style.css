@@ -81,7 +81,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 sub {
@@ -170,7 +170,8 @@ article:last-child {
 }
 
 .post h2:hover {
-    color: #00B16A;
+    color: #70AA7E;
+    text-decoration: none;
 }
 
 .post:after {
