@@ -13,10 +13,7 @@ body_class: "home-template user"
 					<header>
 						<h2>{{ post.title }}</h2>
 					</header>
-					{{ post.excerpt }}
-                    <div align="center">
-					   <a href="{{ site.prefix }}{{ post.url }}" class="button button-style1">Read More</a>
-                    </div>
+					{{ post.excerpt }} <a href="{{ site.prefix }}{{ post.url }}">&#x21b3;</a>
 				</section>
 			</div>
 			{% endfor %}
