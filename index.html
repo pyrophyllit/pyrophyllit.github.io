@@ -11,9 +11,9 @@ body_class: "home-template user"
 				<section class="8u -2u post">
 					<a href="{{ site.prefix }}{{ post.url }}" class="image full"><img src="/assets/{{ post.featured }}" alt=""></a>
 					<header>
-						<h2>{{ post.title }}</h2>
+                        <h2><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a></h2>
 					</header>
-					{{ post.excerpt }} <a href="{{ site.prefix }}{{ post.url }}">&#x21b3;</a>
+					<p>{{ post.excerpt }} <a href="{{ site.prefix }}{{ post.url }}">&#x21b3;</a></p>
 				</section>
 			</div>
 			{% endfor %}
