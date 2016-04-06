@@ -169,7 +169,7 @@ article:last-child {
     font-weight: 500;
 }
 
-.post h2:after {
+.post:after {
     background-image: url("../images/separator.png");
     background-size: 100%;
     background-repeat: no-repeat;
