@@ -2365,7 +2365,7 @@ ul.contact li a:hover {
   position: relative;
   width: 10vw;
   height: 10vw;
-  background: #000;
+  background: #80BA8E;
   display: block;
   overflow: hidden;
 }
@@ -2399,7 +2399,7 @@ ul.contact li a:hover {
   text-align: center;
   list-style: none;
   background: rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 5px;
   border-radius: 20px;
   font-size: 1.2em;
 }
