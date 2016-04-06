@@ -2365,7 +2365,7 @@ ul.contact li a:hover {
   position: relative;
   width: 10vw;
   height: 10vw;
-  background: #80BA8E;
+  background: #000;
   display: block;
   overflow: hidden;
 }
@@ -2398,10 +2398,10 @@ ul.contact li a:hover {
 #instagram .post ul li {
   text-align: center;
   list-style: none;
-  background: rgba(0, 0, 0, 0.8);
+  background: #80BA8E;
   padding: 5px;
-  border-radius: 20px;
-  font-size: 1.2em;
+  border-radius: 0.25em;
+  font-size: 0.5em;
 }
 #instagram .post:hover .image {
   opacity: .5;
