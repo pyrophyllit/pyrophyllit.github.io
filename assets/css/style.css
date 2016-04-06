@@ -2399,9 +2399,8 @@ ul.contact li a:hover {
   text-align: center;
   list-style: none;
   background: #80BA8E;
-  padding: 5px;
   border-radius: 0.25em;
-  font-size: 0.5em;
+  font-size: 0.7em;
 }
 #instagram .post:hover .image {
   opacity: .5;
@@ -2409,5 +2408,5 @@ ul.contact li a:hover {
 }
 #instagram .post:hover ul {
   transform: translateX(-5vw);
-  transform: translateY(-5vw);
+  transform: translateY(-3vw);
 }
