@@ -2409,5 +2409,5 @@ ul.contact li a:hover {
 }
 #instagram .post:hover ul {
   transform: translateX(0);
-  transform: translateY(-10vw);
+  transform: translateY(-5vw);
 }
