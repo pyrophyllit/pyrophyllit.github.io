@@ -2392,7 +2392,7 @@ ul.contact li a:hover {
   color: #FFF;
   text-align: center;
   padding: 0;
-  width: 15vw;
+  width: 5vw;
   margin: 0 auto;
 }
 #instagram .post ul li {
@@ -2408,6 +2408,6 @@ ul.contact li a:hover {
   transform: scale(1.15) translate3d(0, 0, 0);
 }
 #instagram .post:hover ul {
-  transform: translateX(0);
+  transform: translateX(-5vw);
   transform: translateY(-5vw);
 }
