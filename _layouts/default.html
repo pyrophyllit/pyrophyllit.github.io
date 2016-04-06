@@ -71,7 +71,7 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 </body>
     <script>
     $(function() {
-    var accessToken = '275728701.5b9e1e6.8d576ac9da654f9a85a4ec8243dcf078';
+    var accessToken = '3108441843.1677ed0.712c1f3a42f1469b80c3939c56da739a';
     $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + accessToken + '&callback=?', function(insta) {
         $.each(insta.data, function(photos, src) {
             if (photos === 20) {
