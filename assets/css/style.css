@@ -200,6 +200,10 @@ article:last-child {
     display: inline;
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 /* Images */
 
@@ -2137,10 +2141,6 @@ ul.contact li a:hover {
 
 
 /*********************************************************************************/
-
-header h2 {
-    text-align: center;
-}
 
 #header {
     position: relative;
