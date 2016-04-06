@@ -2400,6 +2400,7 @@ ul.contact li a:hover {
   list-style: none;
   background: transparent;
   font-size: 1em;
+  color: crimson;
 }
 #instagram .post:hover .image {
   opacity: .5;
@@ -2407,5 +2408,5 @@ ul.contact li a:hover {
 }
 #instagram .post:hover ul {
   transform: translateX(-5vw);
-  transform: translateY(-3vw);
+  transform: translateY(-4vw);
 }
