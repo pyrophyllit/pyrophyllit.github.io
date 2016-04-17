@@ -1,10 +1,24 @@
-# Basic
-name:               "mnml"
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
 
-URL:                "http://pyrophyllit.github.io"
+# Basic
+name:               "Kiko"
+description:        "a clean, lightweight and minimalistic blog theme for jekyll"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+url:                "//pyrophyllit.xyz"
+author:             "gfjaru"
+twitter:
+  username:         "gfjaru"
+#facebook:
+#  app_id:           1234
+#    publisher:      1234
+
+# URL
 baseurl:            ""
 #baseurl:            "" #For Root Domain
-permalink:          /:year-:month-:day-:title/
+permalink:          /:year/:month/:day/:title/
 
 # Markdown
 markdown:           kramdown
@@ -12,7 +26,7 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "About"
-    href:           "//gfjaru.github.io/Kiko/about"
+    href:           "//kiko.gfjaru.com/about"
   - name:           "Download"
     href:           "//github.com/gfjaru/Kiko/releases"
 
@@ -34,3 +48,6 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+gems:
+  - jekyll-seo-tag
