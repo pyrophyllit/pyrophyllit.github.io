@@ -1,9 +1,5 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
-
 # Basic
-name:               "Kiko"
+name:               "mnml"
 
 URL:                "http://pyrophyllit.github.io"
 baseurl:            ""
