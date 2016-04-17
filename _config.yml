@@ -5,8 +5,8 @@
 # Basic
 name:               "Kiko"
 
-# URL
-baseurl:            "/"
+URL:                "http://pyrophyllit.github.io"
+baseurl:            ""
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
