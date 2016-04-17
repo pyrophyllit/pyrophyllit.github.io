@@ -18,7 +18,7 @@ html {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
-  
+
   @media (min-width: 38em) {
     font-size: 20px;
   }
@@ -34,7 +34,7 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
-  
+
   &:hover,
   &:focus {
     text-decoration: underline;
@@ -86,11 +86,11 @@ dd {
 ul {
   list-style: inside circle;
   padding-left: 0;
-  
+
   li {
     margin-bottom: .25rem;
   }
-  
+
   ul,
   ol {
     margin-top: .25rem;
@@ -101,11 +101,11 @@ ul {
 ol {
   list-style: inside decimal;
   padding-left: 0;
-  
+
   li {
     margin-bottom: .25rem;
   }
-  
+
   ul,
   ol {
     margin-top: .25rem;
@@ -137,18 +137,6 @@ strong {
   font-weight: 600;
 }
 
-.person { 
-	float: left; 
-	color: #903; 
-	font-size: 75px; 
-	line-height: 60px; 
-	padding-top: 4px; 
-	padding-right: 8px; 
-	padding-left: 3px; 
-	font-family: Georgia; 
-}
-
-
 abbr {
   font-size: 85%;
   font-weight: bold;
@@ -166,29 +154,10 @@ blockquote {
   margin: 0 2rem 1rem 0;
   color: #999;
   border-left: .5rem solid #e5e5e5;
-  
+
   p:last-child {
     margin-bottom: 0;
   }
-}
-
-.share-page {
-    text-align: center;
-    background: $secondary-color;
-    color: $light-color;
-    padding: 8px 15px;
-    border-radius: 5px;
-    margin: 1.5 * $spacing-unit 0;
-
-    a {
-        font-weight: 700;
-        color: #fff;
-        margin-left: 10px;
-
-        &:hover {
-            border-bottom: 1px dashed #fff;
-        }
-    }
 }
 
 code,
@@ -293,7 +262,7 @@ tbody tr:nth-child(odd) th {
   padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
-  
+
   @media (min-width: 38rem){
     padding: 5rem 1rem;
   }
@@ -303,41 +272,41 @@ tbody tr:nth-child(odd) th {
 
   &-title {
     font-weight: 300;
-    
+
     a {
       color: #333;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
       }
     }
-    
+
     span {
       color: #ddd;
     }
-    
+
   }
-  
+
   &-title--small {
     margin-bottom: .75rem;
     font-size: .75rem;
     font-weight: 600;
     text-transform: uppercase;
-    
+
     a {
       color: #333;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
       }
     }
   }
-  
+
   .masthead-nav {
     margin-bottom: 2rem;
-    
+
     a {
       color: #aaa;
       font-weight: 300;
@@ -380,12 +349,10 @@ tbody tr:nth-child(odd) th {
 .list {
   &-post-title {
     margin-bottom: .25rem;
-	font-size: 3rem;
-	font-weight: 500;
-    
+
     a {
       color: #333;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
@@ -403,24 +370,6 @@ tbody tr:nth-child(odd) th {
   a {
     color: #333;
   }
-}
-
-.PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden;
-}
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
-}
-
-.PageNavigation .next {
-  text-align: right;
 }
 
 .highlight .hll { background-color: #ffffcc }
@@ -484,4 +433,3 @@ tbody tr:nth-child(odd) th {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
-
