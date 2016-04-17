@@ -4,7 +4,7 @@ name:               "mnml"
 URL:                "http://pyrophyllit.github.io"
 baseurl:            ""
 #baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+permalink:          /:year-:month-:day-:title/
 
 # Markdown
 markdown:           kramdown
