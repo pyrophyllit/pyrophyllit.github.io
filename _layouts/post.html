@@ -1,19 +1,31 @@
 ---
 layout: default
 ---
-<!-- Main -->
-	<div id="main">
-		<div id="content" class="container">
-			<div class="row">
-				
-				<section id="content" class="8u skel-cell-important">
-					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="/assets/{{ page.featured }}" alt=""></a>
-					<header class="post text-center">
-						<h2>{{ page.title }}</h2>
-					</header>
-					{{ page.content }}
-				</section>
-                {% include sidebar.html %}
-			</div>
-		</div>
-    </div>
+<header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+  </h1>
+</header>      
+<div class="content post">
+  <div class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </div>
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+  <hr>
+  <div class="share-page">
+    Share this on &rarr;
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+	<a href="http://www.reddit.com/submit?url=<URL>&title=<TITLE>">Reddit</a>
+  </div>
+  <div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
+</div>
